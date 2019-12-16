@@ -53,6 +53,15 @@ img { width: 30%; display: block;}
 	-webkit-text-fill-color: transparent;
 }
 
+.quote2 {
+	margin-top: -70vh;
+	width: 45vw;
+	font-family: 'Mansalva', cursive;
+	font-size: 36px;
+	color: rgb(49, 32, 1)
+}
+
+
 .widtheee {
 	width: 100vw;
 	height: 100vh;
