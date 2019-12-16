@@ -1,4 +1,4 @@
-body {background-color: #f1f5d8; color: #584934; font-family: 'Montserrat';}
+body {background-color: #f1f5d8; color: #584934; font-family: 'Montserrat'; width: 100vw; overflow-x: hidden;}
 img { width: 30%; display: block;}
 .title {
 	color: #584934;
@@ -15,6 +15,7 @@ img { width: 30%; display: block;}
 	background-image: linear-gradient(to top, #acaf8a 0.75ex, hsla(0, 0%, 0%, 0) 0.75ex);
 	background-position: center;
 	transition: all 0.2s linear;
+	z-index: 9999;
 	}
 .disabled{
 	color: #969696;
@@ -22,7 +23,7 @@ img { width: 30%; display: block;}
 	background-position: center;
 }
 .button:not(.disabled):hover {
-	color: #947c5b;	
+	color: #bea887;	
 	transition: all 1s linear;
 	font-size: 36px;
 	background-image: linear-gradient(to top, #daddb6 0.75ex, hsla(0, 0%, 0%, 0) 0.75ex);
@@ -52,6 +53,18 @@ img { width: 30%; display: block;}
 	-webkit-text-fill-color: transparent;
 }
 
+.widtheee {
+	width: 100vw;
+	height: 100vh;
+	z-index: 99;
+	pointer-events: auto;
+}
+
+.backitup {
+	left: -3vw !important;
+	top: -3vh !important;
+	pointer-events: auto;
+}
 .f4{font-size: 4px;}
 .f5{font-size: 5px;}
 .f6{font-size: 6px;}

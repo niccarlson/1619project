@@ -9,22 +9,30 @@
 <link rel="stylesheet" href="styles.css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700,800&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 </head>
 <body>
 <center>
-		
-   
+     
 
-<div style="background-color: #f1f5d8; height: 100vh; width: 100%;">
-<div style="height: 35vh;"></div>
-    <a class="title f64 w7 co">1619</a>
-    <a class="title f64 w5 co">Project</a>
-	<br><br>
-<span class="f14 w5 kh">BY NIC CARLSON</span>
-	<br><br><br><br>
-<a href=# class="button f30 w6 cy" id="begin">Start</a>
-	<br><br>
+<div id="scene" style="width: 101vw; height: 101vh; left: -1vw; top: -1vh; overflow-x: hidden; overflow-y: hidden; pointer-events: auto;">
 
+    <div data-depth="0.3" class="widtheee">
+
+       
+        <div style="height: 35vh;"></div>
+        <a class="title f64 w7 co">1619</a>
+        <a class="title f64 w5 co">Project</a>
+	    <br><br>    
+        <span class="f14 w5 kh">BY NIC CARLSON</span>
+	    <br><br><br><br>
+        <a href="#" class="button f30 w6 cy" id="begin">Start</a>
+        <br><br>
+    </div>
+        
+<img data-depth="0.2" class="backitup" src="bg.png" style="width: auto; height: auto; max-width: 105vw; max-height: 120vh">
+        
+        <div data-depth="0.2" class="backitup" style="background-color: rgba(146, 140, 114, 0.7); height: 120vh; width: 120%; overflow: hidden; pointer-events: none;"></div>
 </div>
 
 
@@ -59,5 +67,9 @@
 </center>	
 </body>
 <script src="./script.js"></script>
+<script>
+var scene = document.getElementById('scene');
+var parallaxInstance = new Parallax(scene);
+</script>
 
 </html>
