@@ -1,0 +1,101 @@
+body {background-color: #f1f5d8; color: #584934; font-family: 'Montserrat';}
+img { width: 30%; display: block;}
+.title {
+	color: #584934;
+	font-size: 18px;
+	text-align: center;
+	font-weight: 700;
+	background-image: linear-gradient(to top, #acaf8a 0.75ex, hsla(0, 0%, 0%, 0) 0.75ex);
+	background-position: center;
+	cursor: default;
+	}
+.button {
+	color: #584934;
+	text-decoration: none;
+	background-image: linear-gradient(to top, #acaf8a 0.75ex, hsla(0, 0%, 0%, 0) 0.75ex);
+	background-position: center;
+	transition: all 0.2s linear;
+	}
+.disabled{
+	color: #969696;
+	background-image: linear-gradient(to top, #7b7b7b 0.75ex, hsla(0, 0%, 0%, 0) 0.75ex) !important;
+	background-position: center;
+}
+.button:not(.disabled):hover {
+	color: #947c5b;	
+	transition: all 1s linear;
+	font-size: 36px;
+	background-image: linear-gradient(to top, #daddb6 0.75ex, hsla(0, 0%, 0%, 0) 0.75ex);
+	transition: all 0.2s ease;
+
+	}
+.input {
+	outline-width: 0;
+	display: inline-block;
+	box-sizing: content-box;
+	padding: 8px 10px 13px;
+	border: none;
+	color: #584934;
+  	background: linear-gradient(180deg, rgba(255,104,177,0) 0, rgba(255,16,50,0) 84%, #acaf8a 84%, #acaf8a 100%);
+	}
+.input:focus {
+	background: linear-gradient(180deg, rgba(255,104,177,0) 0, rgba(255,16,50,0) 84%, #acaf8a 84%, #acaf8a 100%), rgba(0,0,0,0.13);
+	}
+
+
+.quote1 {
+	width: 50vw; 
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background: linear-gradient(20deg, rgb(255, 89, 89) 0%, rgb(218, 191, 123) 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.f4{font-size: 4px;}
+.f5{font-size: 5px;}
+.f6{font-size: 6px;}
+.f7{font-size: 7px;}
+.f8{font-size: 8px;}
+.f9{font-size: 9px;}
+.f10{font-size: 10px;}
+.f11{font-size: 11px;}
+.f12{font-size: 12px;}
+.f13{font-size: 13px;}
+.f14{font-size: 14px;}
+.f15{font-size: 15px;}
+.f16{font-size: 16px;}
+.f17{font-size: 17px;}
+.f18{font-size: 18px;}
+.f19{font-size: 19px;}
+.f20{font-size: 20px;}
+.f21{font-size: 21px;}
+.f22{font-size: 22px;}
+.f23{font-size: 23px;}
+.f24{font-size: 24px;}
+.f25{font-size: 25px;}
+.f26{font-size: 26px;}
+.f27{font-size: 27px;}
+.f28{font-size: 28px;}
+.f29{font-size: 29px;}
+.f30{font-size: 30px;}
+.f31{font-size: 31px;}
+.f32{font-size: 32px;}
+.f36{font-size: 36px;}
+.f42{font-size: 42px;}
+.f48{font-size: 48px;}
+.f50{font-size: 50px;}
+.f52{font-size: 52px;}
+.f60{font-size: 60px;}
+.f64{font-size: 64px;}
+.kh{letter-spacing: 17px;}
+
+.w5{font-weight: 500;}
+.w6{font-weight: 600;}
+.w7{font-weight: 700;}
+.w8{font-weight: 800;}
+.cn{cursor: not-allowed;}
+.co{cursor: default;}
+.cy{cursor: pointer;}
+.tac{text-align: center;}
+.tal{text-align: right;}
