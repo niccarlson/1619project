@@ -17,6 +17,8 @@ $("#myBtn").click(function() {
         current++;
         if (current == 8){
             document.getElementById('audiop').style.opacity = 0;
+            document.getElementById('audiop').style.display = 'none';
+
             document.getElementById('audiop').pause()
             document.getElementById('audiop').src = 'data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAVFYAAFRWAAABAAgAZGF0YQAAAAA=';
 
