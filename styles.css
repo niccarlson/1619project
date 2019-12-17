@@ -81,6 +81,55 @@ img { width: 30%; display: block;}
 	pointer-events: auto;
 }
 
+.quote3 {
+	font-family: 'Girassol', cursive;
+	font-size: 48px;
+}
+
+
+.putmetop {
+	position: absolute;
+	z-index: 9999;
+}
+
+
+#myBtn {
+	opacity: 0;
+	display: none;
+	position: fixed; /* Fixed/sticky position */
+	bottom: 20px; /* Place the button at the bottom of the page */
+	right: 30px; /* Place the button 30px from the right */
+	z-index: 999999999999; /* Make sure it does not overlap */
+	border: none; /* Remove borders */
+	outline: none; /* Remove outline */
+	background-color: rgb(83, 95, 77); /* Set a background color */
+	color: rgb(21, 24, 22); /* Text color */
+	cursor: pointer; /* Add a mouse pointer on hover */
+	padding: 15px; /* Some padding */
+	border-radius: 200px; /* Rounded corners */
+	font-size: 18px; /* Increase font size */
+	height: 8vh;
+	width: 15vh;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	transition: opacity 1s;
+
+  }
+  
+.audiop {
+	opacity: 0;
+	position: fixed; /* Fixed/sticky position */
+	bottom: 20px; /* Place the button at the bottom of the page */
+	right: 42vw;; /* Place the button 30px from the right */
+	transition: all 1s;
+	z-index: 999999999999; /* Make sure it does not overlap */
+}
+
+  #myBtn:hover {
+	background-color: #555; /* Add a dark-grey background on hover */
+	opacity: 0.5;
+  }
+  
+
 .f4{font-size: 4px;}
 .f5{font-size: 5px;}
 .f6{font-size: 6px;}
