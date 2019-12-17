@@ -79,4 +79,77 @@ document.getElementById('poemaudio').addEventListener("play", function(){
         document.getElementById('l4').style.backgroundColor = 'white'
     }, 6000);
 
+    setTimeout(function(){ 
+        clearColors();
+        document.getElementById('l5').style.backgroundColor = 'white'
+    }, 9000);
+
+    setTimeout(function(){ 
+        clearColors();
+        document.getElementById('l6').style.backgroundColor = 'white'
+    }, 11000);
+
+    setTimeout(function(){ 
+        clearColors();
+        document.getElementById('l7').style.backgroundColor = 'white'
+    }, 14000);
+
+    setTimeout(function(){ 
+        clearColors();
+        document.getElementById('l8').style.backgroundColor = 'white'
+    }, 16000);
+
+    setTimeout(function(){ 
+        clearColors();
+        document.getElementById('l9').style.backgroundColor = 'white'
+    }, 17000);
+
+    setTimeout(function(){ 
+        clearColors();
+        document.getElementById('l10').style.backgroundColor = 'white'
+    }, 20000);
+
+    setTimeout(function(){ 
+        clearColors();
+        document.getElementById('l11').style.backgroundColor = 'white'
+    }, 22500);
+
+    setTimeout(function(){ 
+        clearColors();
+        document.getElementById('l12').style.backgroundColor = 'white'
+    }, 26500);
+
+    setTimeout(function(){ 
+        clearColors();
+        document.getElementById('l13').style.backgroundColor = 'white'
+    }, 30000);
+
+    setTimeout(function(){ 
+        clearColors();
+        document.getElementById('l14').style.backgroundColor = 'white'
+    }, 32000);
+
+    setTimeout(function(){ 
+        clearColors();
+        document.getElementById('l15').style.backgroundColor = 'white'
+    }, 34000);
+
+    setTimeout(function(){ 
+        clearColors();
+        document.getElementById('l16').style.backgroundColor = 'white'
+    }, 36000);
+
+    setTimeout(function(){ 
+        clearColors();
+        document.getElementById('l17').style.backgroundColor = 'white'
+    }, 38000);
+
+    setTimeout(function(){ 
+        clearColors();
+        document.getElementById('l18').style.backgroundColor = 'white'
+    }, 39750);
+
+    setTimeout(function(){ 
+        clearColors();
+    }, 42000);
 });
