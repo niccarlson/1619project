@@ -22,7 +22,7 @@ $("#myBtn").click(function() {
 
 
             document.getElementById('myBtn').style.opacity = 0;
-            document.getElementById('myBtn').style.display = none;
+            document.getElementById('myBtn').style.display = 'none';
         }
 });
 
