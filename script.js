@@ -10,6 +10,20 @@ $("#begin").click(function() {
         2000);
 });
 
+
+var scene = document.getElementById('scene');
+var parallaxInstance1 = new Parallax(scene);
+
+var scene2 = document.getElementById('scene2');
+var parallaxInstance2 = new Parallax(scene2);
+
+var scene3 = document.getElementById('scene3');
+var parallaxInstance3 = new Parallax(scene3);
+
+var scene4 = document.getElementById('scene4');
+var parallaxInstance4 = new Parallax(scene4);
+
+
 $("#myBtn").click(function() {
     $('html,body').animate({
         scrollTop: $("#step" + current).offset().top},
