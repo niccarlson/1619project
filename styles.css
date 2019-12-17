@@ -54,11 +54,17 @@ img { width: 30%; display: block;}
 }
 
 .quote2 {
-	margin-top: -70vh;
+	/* margin-top: -70vh; */
 	width: 45vw;
 	font-family: 'Mansalva', cursive;
 	font-size: 36px;
-	color: rgb(49, 32, 1)
+	color: rgb(49, 32, 1);
+	text-shadow: rgb(221, 211, 193) 2px 2px;
+	position: absolute;
+	z-index: 9999;
+	text-align: left;
+	margin-left: 12vw;
+	margin-top: 18vh;
 }
 
 
@@ -74,6 +80,7 @@ img { width: 30%; display: block;}
 	top: -3vh !important;
 	pointer-events: auto;
 }
+
 .f4{font-size: 4px;}
 .f5{font-size: 5px;}
 .f6{font-size: 6px;}
